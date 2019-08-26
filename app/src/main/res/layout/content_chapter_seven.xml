@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_layout_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/land_used_for_agriculture" />
+
+    <Spinner
+        android:id="@+id/spinnerLandUsedForAgriculture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/family_ownership_of_land" />
+
+    <include
+        android:id="@+id/familyOwnershipLand"
+        layout="@layout/input_ropani_aana_paisa_dam" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ownership_of_land_besides_family" />
+
+    <include
+        android:id="@+id/ownershipOfLandBesidesFamily"
+        layout="@layout/input_ropani_aana_paisa_dam" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_ownership_of_land" />
+
+    <include
+        android:id="@+id/otherOwnershipLand"
+        layout="@layout/input_ropani_aana_paisa_dam" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/annual_crops_production_and_sales" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rice_in_muri" />
+
+    <include
+        android:id="@+id/rice"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/maize_in_muri" />
+
+    <include
+        android:id="@+id/maize"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wheat_in_muri" />
+
+    <include
+        android:id="@+id/wheat"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/millet_in_muri" />
+
+    <include
+        android:id="@+id/millet"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_crops_in_muri" />
+
+    <include
+        android:id="@+id/otherCrops"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/black_gram_in_pathi" />
+
+    <include
+        android:id="@+id/blackGram"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rahar_in_pathi" />
+
+    <include
+        android:id="@+id/rahar"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/red_lentil_in_pathi" />
+
+    <include
+        android:id="@+id/redLentil"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gram_in_pathi" />
+
+    <include
+        android:id="@+id/gram"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bean_in_pathi" />
+
+    <include
+        android:id="@+id/bean"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/soyabean_in_pathi" />
+
+    <include
+        android:id="@+id/soyabean"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_beans_in_pathi" />
+
+    <include
+        android:id="@+id/otherBeans"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mustard_in_kg" />
+
+    <include
+        android:id="@+id/mustard"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sesame_in_kg" />
+
+    <include
+        android:id="@+id/sesame"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sunflower_in_kg" />
+
+    <include
+        android:id="@+id/sunflower"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_oil_in_kg" />
+
+    <include
+        android:id="@+id/otherOil"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/potato_in_kg" />
+
+    <include
+        android:id="@+id/potato"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cabbage_in_kg" />
+
+    <include
+        android:id="@+id/cabbage"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pea_in_kg" />
+
+    <include
+        android:id="@+id/pea"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tomato_in_kg" />
+
+    <include
+        android:id="@+id/tomato"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cucumber_in_kg" />
+
+    <include
+        android:id="@+id/cucumber"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mushroom_in_kg" />
+
+    <include
+        android:id="@+id/mushroom"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bitter_gaurd_in_kg" />
+
+    <include
+        android:id="@+id/bitterGaurd"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_vegetable_in_kg" />
+
+    <include
+        android:id="@+id/otherVegetable"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ginger_in_kg" />
+
+    <include
+        android:id="@+id/ginger"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onion_in_kg" />
+
+    <include
+        android:id="@+id/onion"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chilli_in_kg" />
+
+    <include
+        android:id="@+id/chilli"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mango_in_kg" />
+
+    <include
+        android:id="@+id/mango"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/litchi_in_kg" />
+
+    <include
+        android:id="@+id/litchi"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/banana_in_kg" />
+
+    <include
+        android:id="@+id/banana"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/papaya_in_kg" />
+
+    <include
+        android:id="@+id/papaya"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orange_in_kg" />
+
+    <include
+        android:id="@+id/orange"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/peach_in_kg" />
+
+    <include
+        android:id="@+id/peach"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jackfood_in_kg" />
+
+    <include
+        android:id="@+id/jackfood"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pineapple_in_kg" />
+
+    <include
+        android:id="@+id/pineapple"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guava_in_kg" />
+
+    <include
+        android:id="@+id/guava"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kiwi_in_kg" />
+
+    <include
+        android:id="@+id/kiwi"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coffee_in_kg" />
+
+    <include
+        android:id="@+id/coffee"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cardamom_in_kg" />
+
+    <include
+        android:id="@+id/cardamom"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sugarcane_in_kg" />
+
+    <include
+        android:id="@+id/sugarcane"
+        layout="@layout/input_quantity_area_sell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rearing_animal" />
+
+    <Spinner
+        android:id="@+id/spinnerRearingAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cow" />
+
+    <include
+        android:id="@+id/cow"
+        layout="@layout/input_cow" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buffalo" />
+
+    <include
+        android:id="@+id/buffalo"
+        layout="@layout/input_buffalo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sheep" />
+
+    <include
+        android:id="@+id/sheep"
+        layout="@layout/input_sheep" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pig" />
+
+    <include
+        android:id="@+id/pig"
+        layout="@layout/input_pig" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hen" />
+
+    <include
+        android:id="@+id/hen"
+        layout="@layout/input_hen" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pigeon" />
+
+    <include
+        android:id="@+id/pigeon"
+        layout="@layout/input_pigeon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fishery" />
+
+    <Spinner
+        android:id="@+id/spinnerFishery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bee_keeping" />
+
+    <Spinner
+        android:id="@+id/spinnerBeeKeeping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/horticulture" />
+
+    <Spinner
+        android:id="@+id/spinnerHorticulture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fishery" />
+
+    <include
+        android:id="@+id/fishery"
+        layout="@layout/input_fishery" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bee_keeping" />
+
+    <include
+        android:id="@+id/bee"
+        layout="@layout/input_bee" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/horticulture" />
+
+    <include
+        android:id="@+id/horticulture"
+        layout="@layout/input_horticulture" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/agriculture_production_sufficient_for" />
+
+    <Spinner
+        android:id="@+id/spinnerAgricultureProductionSuffFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firm" />
+
+    <Spinner
+        android:id="@+id/spinnerFirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextFirmTotalNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/firm_total_number"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firm_registered" />
+
+    <Spinner
+        android:id="@+id/spinnerFirmRegistered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextFirmRegisteredYes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/firm_registered_number"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextFirmRegisteredNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/firm_not_registered_number"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firm_registered_in" />
+
+    <Spinner
+        android:id="@+id/spinnerFirmRegisteredIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firm_has_pan_number" />
+
+    <Spinner
+        android:id="@+id/spinnerFirmPanNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <!--FIRM TYPES -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firm_types" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxGrocery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grocery_store" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxMeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/meat_shop" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxFruits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fruits_and_vegetables" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxDairy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dairy" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxConstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/construction" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxPharmacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pharmacy" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxWorkshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/workshop_mechanic" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxElectrical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/electrical_and_electronics" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotel_and_restaurant" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxAgriculture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/agricultural_farm" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxClothing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clothing_and_fancy" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxTourism"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tourism" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxIndustry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/industry" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxPrivateEd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/private_educational_institution" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxOtherInst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_institutions" />
+
+    <CheckBox
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/checkboxOtherBusiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_business" />
+
+    <!--FIRM TYPES END -->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextFirmInvestmentAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/firm_investment_amount"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextFirmManInvolvement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/firm_involvement_of_man"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextFirmWomanInvolvement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/firm_involvement_of_woman"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextFirmAnnualIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/firm_annual_income"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firm_audit_reporting" />
+
+    <Spinner
+        android:id="@+id/spinnerFirmAuditReporting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firm_paying_tax_to_municipality" />
+
+    <Spinner
+        android:id="@+id/spinnerPayingTaxToMunicipality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPropertyTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/property_tax_to_municipality" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHomeTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/home_tax_to_municipality" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBusinessTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/business_tax_to_municipality" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOtherTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/other_tax_to_municipality" />
+
+</LinearLayout>

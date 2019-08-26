@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_layout_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/natural_disaster_hazards" />
+
+    <Spinner
+        android:id="@+id/spinnerNaturalDisasterHazards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterDrought"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_drought" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterSettlementFiring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_settlement_firing" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterForestFiring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_forest_firing" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterFlood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_flood" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterStorms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_storms" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterLighting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_lightning" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterHailstone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_hailstone" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterSubmergedLand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_submerged_land" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterHeavyRain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_heavy_rain" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterPartlyRain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_partly_rain" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterLandslide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_landslide" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaturalDisasterPesticides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/natural_disaster_pesticides" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facing_natural_disaster_hazards" />
+
+    <Spinner
+        android:id="@+id/spinnerFacingNaturalDisasterHazards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingDisasterDeath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_natural_disaster_death" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingDisasterWounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_natural_disaster_wounded" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingDisasterLandLoss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_natural_disaster_loss_of_land" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingDisasterAnimalDeaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_natural_disaster_animal_deaths" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingDisasterAnimalWounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_natural_disaster_animal_wounded" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingDisasterCropLoss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_natural_disaster_loss_of_crops" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingDisasterOthers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_natural_disaster_others" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/migrated_by_natural_disaster" />
+
+    <Spinner
+        android:id="@+id/spinnerMigratedNaturalDisaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facing_problem_animal_attack" />
+
+    <Spinner
+        android:id="@+id/spinnerFacingProblemAnimalAttack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAnimalAttackDeath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_animal_attack_death" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAnimalAttackWounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_animal_attack_wounded" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAnimalAttackDamageHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_animal_attack_house_damage" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAnimalAttackAnimalDeaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_animal_attack_animal_deaths" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAnimalAttackAnimalWounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_animal_attack_animal_wounded" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAnimalAttackCropLoss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_animal_attack_loss_of_crops" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAnimalAttackOthers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_animal_attack_others" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facing_abuse" />
+
+    <Spinner
+        android:id="@+id/spinnerFacingAbuse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAbuseMurder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_abuse_murder" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAbuseRaping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_abuse_rape" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAbuseKidnapped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_abuse_kidnapped" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAbuseFear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_abuse_fear" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAbuseRobbery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_abuse_robbery" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAbuseDakaiti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_abuse_dakaiti" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAbuseGirlTrafficking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_abuse_girl_trafficking" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAbuseHumanLoss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_abuse_human_loss" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacingAbuseOthers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/facing_abuse_others" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/social_discrimination" />
+
+    <Spinner
+        android:id="@+id/spinnerSocialDiscrimination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSocialDiscriminationEthnic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/social_discrimination_ethnic" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSocialDiscriminationGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/social_discrimination_gender" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSocialDiscriminationWomen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/social_discrimination_women" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSocialDiscriminationLowCaste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/social_discrimination_caste" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSocialDiscriminationCommunity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/social_discrimination_community" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviromental_problems" />
+
+    <Spinner
+        android:id="@+id/spinnerEnviromentalProblems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEnviromentalProblemsPollutedWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/enviromental_problems_polluted_water" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEnviromentalProblemsSolidWaste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/enviromental_problems_solid_waste" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEnviromentalProblemsDrainage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/enviromental_problems_drainage" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEnviromentalProblemsDust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/enviromental_problems_dust_ash" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEnviromentalProblemsSoundPollution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/enviromental_problems_sound_pollution" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEnviromentalProblemsParking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/enviromental_problems_un_managed_parking" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEnviromentalProblemsOverCrowded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/enviromental_problems_over_crowded" />
+
+</LinearLayout>

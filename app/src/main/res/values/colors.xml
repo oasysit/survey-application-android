@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#7e72ea</color>
+    <color name="colorPrimaryLight">#6370b6</color>
+
+    <color name="backgroundColor">#4D3CCFFF</color>
+    <color name="completedColor">#4CAF50</color>
+    <color name="remainingColor">#F44336</color>
+
+    <color name="horizontalBarColor">#BBBBBB</color>
+</resources>

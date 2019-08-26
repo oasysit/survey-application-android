@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="vocational_skill_training">Vocational Skill Training</string>
+    <string name="account_in_bank">Account in Bank</string>
+    <string name="loan_in_the_family">Loan in the family</string>
+    <string name="loan_from">Loan From</string>
+    <string name="loan_for">Loan For</string>
+    <string name="involved_in_politics">Involved in Politics</string>
+    <string name="involved_in">Involved In</string>
+    <string name="technical_training_man">Technical Training Man</string>
+    <string name="tailoring_training_man">Tailoring Training Man</string>
+    <string name="carpentry_training_man">Carpentry Training Man</string>
+    <string name="engineering_training_man">Engineering Training Man</string>
+    <string name="food_processing_training_man">Food processing Training Man</string>
+    <string name="public_heath_training_man">Public heath Training Man</string>
+    <string name="animal_heath_training_man">Animal heath Training Man</string>
+    <string name="forest_training_man">Forest Training Man</string>
+    <string name="tourism_training_man">Tourism Training Man</string>
+    <string name="art_training_man">Art Training Man</string>
+    <string name="other_training_man">Other Training Man</string>
+    <string name="technical_training_woman">Technical Training Woman</string>
+    <string name="tailoring_training_woman">Tailoring Training Woman</string>
+    <string name="carpentry_training_woman">Carpentry Training Woman</string>
+    <string name="engineering_training_woman">Engineering Training Woman</string>
+    <string name="food_processing_training_woman">Food processing Training Woman</string>
+    <string name="public_heath_training_woman">Public heath Training Woman</string>
+    <string name="animal_heath_training_woman">Animal heath Training Woman</string>
+    <string name="forest_training_woman">Forest Training Woman</string>
+    <string name="tourism_training_woman">Tourism Training Woman</string>
+    <string name="art_training_woman">Art Training Woman</string>
+    <string name="other_training_woman">Other Training Woman</string>
+    <string name="agriculture_income_rs">Agriculture Income (Rs.)</string>
+    <string name="indurstry_income_rs">Indurstry Income (Rs.)</string>
+    <string name="salary_income_rs">Salary Income (Rs.)</string>
+    <string name="foreign_income_rs">Foreign Income (Rs.)</string>
+    <string name="other_income_rs">Other Income (Rs.)</string>
+    <string name="fooding_expenditure_rs">Fooding Expenditure (Rs.)</string>
+    <string name="clothing_expenditure_rs">Clothing Expenditure (Rs.)</string>
+    <string name="education_expenditure_rs">Education Expenditure (Rs.)</string>
+    <string name="health_expenditure_rs">Health Expenditure (Rs.)</string>
+    <string name="festivals_expenditure_rs">Festivals Expenditure (Rs.)</string>
+    <string name="labour_expenditure_rs">Labour Expenditure (Rs.)</string>
+    <string name="other_expenditure_rs">Other Expenditure (Rs.)</string>
+
+    <string-array name="loan_from">
+        <item></item>
+        <item>Bank</item>
+        <item>Cooperative</item>
+        <item>Group/Community</item>
+        <item>Individual Person</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="loan_for">
+        <item></item>
+        <item>Domestic Affairs</item>
+        <item>Livestock and Agriculture</item>
+        <item>Industry and Commerce</item>
+        <item>Socio-cultural Affairs</item>
+        <item>Education</item>
+        <item>Medical Treatment</item>
+        <item>Other Purpose</item>
+    </string-array>
+
+    <string name="localLevel">Local level</string>
+    <string name="localLevelPlan">Local level plan formulation</string>
+    <string name="localHealth">Local health management committee</string>
+    <string name="schoolManagement">School Management Committee</string>
+    <string name="agriculturalGroup">Agricultural Group</string>
+    <string name="forestConsumers">Forest Consumers Group</string>
+    <string name="cooperative">Cooperatives</string>
+    <string name="savingAndLoan">Saving and Loan Group</string>
+    <string name="womanGroup">Woman Group</string>
+    <string name="drinkingWater">Drinking water consumers group</string>
+    <string name="irrigationWater">Irrigation water consumers group</string>
+    <string name="incomeGeneratingGroup">Income generating group</string>
+    <string name="ethnicGroup">Ethnic Group</string>
+    <string name="youthChildGroup">Youth/Child Group</string>
+    <string name="otherActivity">Other activity</string>
+
+</resources>

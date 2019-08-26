@@ -1,0 +1,310 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_layout_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_of_drinking_tap" />
+
+    <Spinner
+        android:id="@+id/spinnerDrinkingTap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/water_availability" />
+
+    <Spinner
+        android:id="@+id/spinnerWaterAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/water_quality" />
+
+    <Spinner
+        android:id="@+id/spinnerWaterQuality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/water_fetching_distance" />
+
+    <Spinner
+        android:id="@+id/spinnerWaterFetchingDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_of_cooking_stove" />
+
+    <Spinner
+        android:id="@+id/spinnerCookingStove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_of_oven" />
+
+    <Spinner
+        android:id="@+id/spinnerTypeofOven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_of_electricity" />
+
+    <Spinner
+        android:id="@+id/spinnerTypeOfElectricity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/why_no_electricity" />
+
+    <Spinner
+        android:id="@+id/spinnerWhyNoElectricity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_of_toilet" />
+
+    <Spinner
+        android:id="@+id/spinnerTypeOfToilet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/joint_toilet" />
+
+    <Spinner
+        android:id="@+id/spinnerJointToilet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_of_waste_management" />
+
+    <Spinner
+        android:id="@+id/spinnerTypeOfWasteManagement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/house_drain" />
+
+    <Spinner
+        android:id="@+id/spinnerHouseDrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/house_road" />
+
+    <Spinner
+        android:id="@+id/spinnerHouseRoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextRoadWidth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/road_width"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/facilities_used_by_family" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_radio"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextTelevision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_television"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_mobile"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextComputer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_computer"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextEmailInternet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_email_internet"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextBikeScooter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_bike_scooter"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextMotorCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_motor_car"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextRefrigerator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_refrigerator"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextWashingMachine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_washing_machine"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextAirConditioner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_air_conditioner"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextHeaterGeyserSolar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_heater_geyser_solar"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

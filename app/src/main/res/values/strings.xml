@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Survey Application</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="reset_password">Reset</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="not_a_member">Not a member?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="logout">Log out</string>
+    <string name="entry_data">Entry Data</string>
+    <string name="sync_data">Sync Data</string>
+    <string name="status">Status</string>
+    <string name="settings">Settings</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="place_name">Place Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="girl">Girl</string>
+    <string name="boy">Boy</string>
+
+    <string name="finish">Finish</string>
+    <string name="language_nepali">Language (Nepali)</string>
+
+
+    <string name="chapter_one">Chapter One</string>
+    <string name="chapter_two">Chapter Two</string>
+    <string name="chapter_three">Chapter Three</string>
+    <string name="chapter_four">Chapter Four</string>
+    <string name="chapter_five">Chapter Five</string>
+    <string name="chapter_six">Chapter Six</string>
+    <string name="chapter_seven">Chapter Seven</string>
+    <string name="chapter_eight">Chapter Eight</string>
+    <string name="chapter_nine">Chapter Nine</string>
+    <string name="edit_text_number_default" translatable="false">0</string>
+    <string name="press_here_to_get_the_total">Press here to get the total</string>
+
+    <string-array name="spinner_yes_no">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="spinner_yes_no_unknown">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string name="geonet_description" translatable="false">
+        About Us:"\n"Geo Net Connection Pvt. Ltd. is established in 10 May, 2010.
+        It is a private consulting firm for research, surveying and mapping
+        using geospatial tools. Geo Net primary concern has always been to
+        render professional and personal services of the highest
+        quality to our clients who include government, semi-government,
+        non-government and private enterprises.
+    </string>
+
+    <string name="geonet_services" translatable="false">
+        Providing Services:"\n"
+            • Periodic (Integrated) Development Plan"\n"
+            • Profile (Province/Municipality/Rural Municipality)"\n"
+            • Tourism Master Plan"\n"
+            • Poverty Mapping"\n"
+            • Resource Mapping"\n"
+            • Risk/Hazard Mapping"\n"
+            • IEE/EIA"\n"
+            • Climate Change/Resilience"\n"
+            • Land Use Plan"\n"
+            • And many more ..."\n"
+    </string>
+
+    <string name="geonet_contact" translatable="false">
+        Contact:"\n"GeoNet Pvt. Ltd."\n"Mobile: 9856023003 / 9846111045"\n"Email: geonet2067@gmail.com
+    </string>
+    <string name="labour_income">Labour Income</string>
+    <string name="pentavalent">Pentavalent</string>
+    <string name="hib_pneumonia">HIB (Pneumonia)</string>
+    <string name="pcv_pneumonia">PCV (Pneumonia)</string>
+    <string name="m_r_dadura_rubela">M.R. (Dadura/Rubela)</string>
+    <string name="japanese_encephalitis">Japanese Encephalitis</string>
+
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?attr/actionBarSize"
+            tools:ignore="UselessParent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/btnChapterOne"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/linear_layout_padding"
+                        android:text="@string/chapter_one" />
+
+                    <include
+                        android:id="@+id/chapter_one"
+                        layout="@layout/content_chapter_one"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/btnChapterTwo"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/linear_layout_padding"
+                        android:text="@string/chapter_two" />
+
+                    <include
+                        android:id="@+id/chapter_two"
+                        layout="@layout/content_chapter_two"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/btnChapterThree"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/linear_layout_padding"
+                        android:text="@string/chapter_three" />
+
+                    <include
+                        android:id="@+id/chapter_three"
+                        layout="@layout/content_chapter_three"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/btnChapterFour"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/linear_layout_padding"
+                        android:text="@string/chapter_four" />
+
+                    <include
+                        android:id="@+id/chapter_four"
+                        layout="@layout/content_chapter_four"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/btnChapterFive"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/linear_layout_padding"
+                        android:text="@string/chapter_five" />
+
+                    <include
+                        android:id="@+id/chapter_five"
+                        layout="@layout/content_chapter_five"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/btnChapterSix"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/linear_layout_padding"
+                        android:text="@string/chapter_six" />
+
+                    <include
+                        android:id="@+id/chapter_six"
+                        layout="@layout/content_chapter_six"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/btnChapterSeven"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/linear_layout_padding"
+                        android:text="@string/chapter_seven" />
+
+                    <include
+                        android:id="@+id/chapter_seven"
+                        layout="@layout/content_chapter_seven"
+                        android:visibility="gone" />
+
+                    <include
+                        android:id="@+id/chapter_eight"
+                        layout="@layout/content_chapter_eight"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/btnChapterNine"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/linear_layout_padding"
+                        android:text="@string/chapter_eight" />
+
+                    <include
+                        android:id="@+id/chapter_nine"
+                        layout="@layout/content_chapter_nine"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignBottom="@id/linearLayout"
+        android:background="@color/colorPrimaryLight"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnFinish"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/finish" />
+    </TableRow>
+</RelativeLayout>

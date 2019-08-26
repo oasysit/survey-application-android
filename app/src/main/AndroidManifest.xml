@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="np.com.sushantpaudel.surveyapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".active_android.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="survey_database" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="np.com.sushantpaudel.surveyapplication.active_android.DataModel" />
+
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterAccountActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".StatusActivity" />
+
+        <activity
+            android:name=".new_data_entry.DataEntryActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <provider
+            android:name="com.activeandroid.content.ContentProvider"
+            android:authorities="np.com.sushantpaudel.surveyapplication"
+            android:enabled="true"
+            android:exported="false">
+        </provider>
+    </application>
+</manifest>

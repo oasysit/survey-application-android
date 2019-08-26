@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_layout_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_of_people_gender" />
+
+    <include
+        android:id="@+id/noOfPeopleGender"
+        layout="@layout/input_male_female_other" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_below_1_year_old" />
+
+    <include
+        android:id="@+id/ageBelowOneYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_between_1_to_3_years_old" />
+
+    <include
+        android:id="@+id/ageBetweenOneThreeYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_between_4_to_5_years_old" />
+
+    <include
+        android:id="@+id/ageBetweenFourFiveYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_between_6_to_10_years_old" />
+
+    <include
+        android:id="@+id/ageBetweenSixTenYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_between_11_to_15_years_old" />
+
+    <include
+        android:id="@+id/ageBetweenElevenFifteenYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_between_16_to_18_years_old" />
+
+    <include
+        android:id="@+id/ageBetweenSixteenEighteenYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_between_19_to_45_years_old" />
+
+    <include
+        android:id="@+id/ageBetweenNineteenFortyFiveYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_between_46_to_60_years_old" />
+
+    <include
+        android:id="@+id/ageBetweenFortySixSixtyYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_between_61_to_65_years_old" />
+
+    <include
+        android:id="@+id/ageBetweenSixtyOneSixtyFiveYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_between_66_to_70_years_old" />
+
+    <include
+        android:id="@+id/ageBetweenSixtySixSeventyYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_between_71_to_80_years_old" />
+
+    <include
+        android:id="@+id/ageBetweenSeventyOneEightyYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_above_80_years_old" />
+
+    <include
+        android:id="@+id/ageAboveEightyYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        android:id="@+id/totalCalculator"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/press_here_to_get_the_total" />
+
+    <TextView
+        android:id="@+id/totalPeopleBoy"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_people" />
+
+    <TextView
+        android:id="@+id/totalPeopleGirl"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_people" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/illiterate_between_5_to_15_years_old" />
+
+    <include
+        android:id="@+id/illiterateBetweenFiveFifteenYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/literate_between_5_to_15_years_old" />
+
+    <include
+        android:id="@+id/literateBetweenFiveFifteenYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/illiterate_between_16_to_45_years_old" />
+
+    <include
+        android:id="@+id/illiterateBetweenSixteenFourtyFiveYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/literate_between_16_to_45_years_old" />
+
+    <include
+        android:id="@+id/literateBetweenSixteenFourtyFiveYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/illiterate_between_46_to_60_years_old" />
+
+    <include
+        android:id="@+id/illiterateBetweenFourtySixSixtyYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/literate_between_46_to_60_years_old" />
+
+    <include
+        android:id="@+id/literateBetweenFourtySixSixtyYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/illiterate_above_60_years_old" />
+
+    <include
+        android:id="@+id/illiterateAboveSixtyYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/literate_above_60_years_old" />
+
+    <include
+        android:id="@+id/literateAboveSixtyYearOld"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pre_school_government" />
+
+    <include
+        android:id="@+id/preSchoolGovt"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pre_school_boarding" />
+
+    <include
+        android:id="@+id/preSchoolBoarding"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/primary_government" />
+
+    <include
+        android:id="@+id/primaryGovernment"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/primary_boarding" />
+
+    <include
+        android:id="@+id/primaryBoarding"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/secondary_government" />
+
+    <include
+        android:id="@+id/secondaryGovernment"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/secondary_boarding" />
+
+    <include
+        android:id="@+id/secondaryBoarding"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bachelors" />
+
+    <include
+        android:id="@+id/bachelors"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/masters" />
+
+    <include
+        android:id="@+id/masters"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m_phil" />
+
+    <include
+        android:id="@+id/mPhil"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phd" />
+
+    <include
+        android:id="@+id/phd"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/basic_distance" />
+
+    <Spinner
+        android:id="@+id/primaryDist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/secondary_distance" />
+
+    <Spinner
+        android:id="@+id/secondaryDist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_not_enroll_primary" />
+
+    <include
+        android:id="@+id/normalNotEnrollPrimary"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abnormal_not_enroll_primary" />
+
+    <include
+        android:id="@+id/abnormalNotEnrollPrimary"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_not_enroll_secondary" />
+
+    <include
+        android:id="@+id/normalNotEnrollSec"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abnormal_not_enroll_secondary" />
+
+    <include
+        android:id="@+id/abnormalNotEnrollSec"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drop_out_5_18_years_old" />
+
+    <include
+        android:id="@+id/dropOut_5_18"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dropout_cause" />
+
+    <Spinner
+        android:id="@+id/dropOutCause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_padding" />
+
+    <CheckBox
+        android:id="@+id/childInClub"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/child_in_club" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/school_club" />
+
+    <include
+        android:id="@+id/schoolClub"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tole_club" />
+
+    <include
+        android:id="@+id/toleClub"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/labour_club" />
+
+    <include
+        android:id="@+id/labourClub"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_in_sports" />
+
+    <include
+        android:id="@+id/intInSports"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_in_arts" />
+
+    <include
+        android:id="@+id/intInArts"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_in_literature" />
+
+    <include
+        android:id="@+id/intInLiterature"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_in_folk_culture" />
+
+    <include
+        android:id="@+id/intInCult"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_in_technology" />
+
+    <include
+        android:id="@+id/intInTech"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_in_t_v" />
+
+    <include
+        android:id="@+id/intInTV"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_in_internet" />
+
+    <include
+        android:id="@+id/intInInternet"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_in_news" />
+
+    <include
+        android:id="@+id/intInNews"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_in_socialization" />
+
+    <include
+        android:id="@+id/intInSocialization"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_in_study" />
+
+    <include
+        android:id="@+id/intInStudy"
+        layout="@layout/input_boy_girl" />
+
+    <!--<TextView-->
+    <!--style="@style/TextAppearance.AppCompat.Medium"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/settlement_in_rm" />-->
+
+    <!--<include-->
+    <!--android:id="@+id/settleInRM"-->
+    <!--layout="@layout/input_boy_girl" />-->
+
+    <!--<TextView-->
+    <!--style="@style/TextAppearance.AppCompat.Medium"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/settlement_out_rm" />-->
+
+    <!--<include-->
+    <!--android:id="@+id/settleOutRM"-->
+    <!--layout="@layout/input_boy_girl" />-->
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/if_anyone_from_family_has_been_abroad" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreign_india" />
+
+    <include
+        android:id="@+id/foreignIndia"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreign_gulf" />
+
+    <include
+        android:id="@+id/foreignGulf"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreign_korea" />
+
+    <include
+        android:id="@+id/foreignKorea"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreign_japan" />
+
+    <include
+        android:id="@+id/foreignJapan"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreign_malaya" />
+
+    <include
+        android:id="@+id/foreignMalaya"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreign_australia" />
+
+    <include
+        android:id="@+id/foreignAust"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreign_europe" />
+
+    <include
+        android:id="@+id/foreignEurope"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreign_u_s" />
+
+    <include
+        android:id="@+id/foreignUS"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreign_other" />
+
+    <include
+        android:id="@+id/foreignOther"
+        layout="@layout/input_boy_girl" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/foreignLess5Years"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/foreign_less_5_years"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/foreignMore5Years"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/foreign_more_5_years"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/involvement_in_agriculture" />
+
+    <include
+        android:id="@+id/cFourAgriculture"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/involvement_in_industry" />
+
+    <include
+        android:id="@+id/cFourIndustry"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/involvement_in_service" />
+
+    <include
+        android:id="@+id/cFourService"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pension" />
+
+    <include
+        android:id="@+id/pension"
+        layout="@layout/input_pension" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/working_in_wages" />
+
+    <include
+        android:id="@+id/wages"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreign_employment" />
+
+    <include
+        android:id="@+id/foreignEmployment"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mentor" />
+
+    <include
+        android:id="@+id/mentor"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student" />
+
+    <include
+        android:id="@+id/student"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/house_wife" />
+
+    <!--COMEDY CHECK-->
+
+    <include
+        android:id="@+id/houseWife"
+        layout="@layout/input_boy_girl" />
+
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unemployed" />
+
+    <include
+        android:id="@+id/unemployment"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/marital_status" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unmarried" />
+
+    <include
+        android:id="@+id/unmarried"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/married" />
+
+    <include
+        android:id="@+id/married"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/polygamy" />
+
+    <include
+        android:id="@+id/polygamy"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/re_marriage" />
+
+    <include
+        android:id="@+id/reMarriage"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widow" />
+
+    <include
+        android:id="@+id/widow"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/divorce" />
+
+    <include
+        android:id="@+id/divorce"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/separate" />
+
+    <include
+        android:id="@+id/separate"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/not_disabled" />
+
+    <include
+        android:id="@+id/notDisabled"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/physically_disabled" />
+
+    <include
+        android:id="@+id/physicallyDisabled"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intel_disabled" />
+
+    <include
+        android:id="@+id/intelDisabled"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blind_disabled" />
+
+    <include
+        android:id="@+id/blindDisabled"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hear_disabled" />
+
+    <include
+        android:id="@+id/hearDisabled"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mouth_disabled" />
+
+    <include
+        android:id="@+id/mouthDisabled"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/speech_disabled" />
+
+    <include
+        android:id="@+id/speechDisabled"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blind_deaf_disabled" />
+
+    <include
+        android:id="@+id/blindDeafDisabled"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mental_disabled" />
+
+    <include
+        android:id="@+id/mentalDisabled"
+        layout="@layout/input_boy_girl" />
+
+    <CheckBox
+        android:id="@+id/disabilityCard"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/disability_card" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/cardR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/card_r"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/cardB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/card_b"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/cardY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/card_y"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/cardW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/card_w"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/migYN"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/migration" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/migration_type" />
+
+    <Spinner
+        android:id="@+id/migType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_padding" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/migYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/migration_year"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/migCause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/migration_cause"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/childBornThisyear"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/child_born_this_year" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_of_child_birth" />
+
+    <include
+        android:id="@+id/noOfChildBirth"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/born_place" />
+
+    <Spinner
+        android:id="@+id/bornPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_padding" />
+
+    <CheckBox
+        android:id="@+id/child_lt_1yr_death"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/child_death_of_less_than_1_year" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_of_deaths" />
+
+    <include
+        android:id="@+id/childLtDeath1yr"
+        layout="@layout/input_boy_girl" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/causeOfDeath1yr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cause_of_death"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/child_lt_5yr_death"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/child_death_of_less_than_5_year" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_of_deaths" />
+
+    <include
+        android:id="@+id/childLtDeath5yr"
+        layout="@layout/input_boy_girl" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/causeOfDeath5yr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cause_of_death"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

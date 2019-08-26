@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_layout_padding">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/editTextRopani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ropani"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/editTextAana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/aana"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/editTextPaisa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/paisa"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/editTextDam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/daam"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+
+    </TableRow>
+
+</LinearLayout>

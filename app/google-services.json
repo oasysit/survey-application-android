@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "906597347934",
+    "firebase_url": "https://survey-app-nepal.firebaseio.com",
+    "project_id": "survey-app-nepal",
+    "storage_bucket": "survey-app-nepal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906597347934:android:aff33e99952da997",
+        "android_client_info": {
+          "package_name": "np.com.sushantpaudel.surveyapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906597347934-46bmohj5kp586qpc24lhi6veor8gi5cg.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "906597347934-46bmohj5kp586qpc24lhi6veor8gi5cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjPJQbKmv4-BkXw4DPwdiPNZ3XE7txDtg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

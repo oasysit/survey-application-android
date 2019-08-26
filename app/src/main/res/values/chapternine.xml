@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="natural_disaster_hazards">Natural Disaster Hazards</string>
+    <string name="natural_disaster_drought">Natural Disaster Drought</string>
+    <string name="natural_disaster_settlement_firing">Natural Disaster Settlement Firing</string>
+    <string name="natural_disaster_forest_firing">Natural Disaster Forest Firing</string>
+    <string name="natural_disaster_flood">Natural Disaster Flood</string>
+    <string name="natural_disaster_storms">Natural Disaster Storms</string>
+    <string name="natural_disaster_lightning">Natural Disaster Lightning</string>
+    <string name="natural_disaster_hailstone">Natural Disaster Hailstone</string>
+    <string name="natural_disaster_submerged_land">Natural Disaster Submerged Land</string>
+    <string name="natural_disaster_heavy_rain">Natural Disaster Heavy Rain</string>
+    <string name="natural_disaster_partly_rain">Natural Disaster Partly Rain</string>
+    <string name="natural_disaster_landslide">Natural Disaster Landslide</string>
+    <string name="natural_disaster_pesticides">Natural Disaster Pesticides</string>
+    <string name="facing_natural_disaster_hazards">Facing Natural Disaster Hazards</string>
+    <string name="facing_natural_disaster_death">Facing Natural Disaster Death</string>
+    <string name="facing_natural_disaster_wounded">Facing Natural Disaster Wounded</string>
+    <string name="facing_natural_disaster_loss_of_land">Facing Natural Disaster Loss of Land</string>
+    <string name="facing_natural_disaster_animal_deaths">Facing Natural Disaster Animal Deaths</string>
+    <string name="facing_natural_disaster_animal_wounded">Facing Natural Disaster Animal Wounded</string>
+    <string name="facing_natural_disaster_loss_of_crops">Facing Natural Disaster Loss of Crops</string>
+    <string name="facing_natural_disaster_others">Facing Natural Disaster Others</string>
+    <string name="migrated_by_natural_disaster">Migrated by Natural Disaster</string>
+    <string name="facing_problem_animal_attack">Facing Problem Animal Attack</string>
+    <string name="facing_animal_attack_death">Facing Animal Attack Death</string>
+    <string name="facing_animal_attack_wounded">Facing Animal Attack Wounded</string>
+    <string name="facing_animal_attack_house_damage">Facing Animal Attack House Damage</string>
+    <string name="facing_animal_attack_animal_deaths">Facing Animal Attack Animal Deaths</string>
+    <string name="facing_animal_attack_animal_wounded">Facing Animal Attack Animal Wounded</string>
+    <string name="facing_animal_attack_loss_of_crops">Facing Animal Attack loss of Crops</string>
+    <string name="facing_animal_attack_others">Facing Animal Attack Others</string>
+    <string name="facing_abuse">Facing Abuse</string>
+    <string name="facing_abuse_murder">Facing Abuse Murder</string>
+    <string name="facing_abuse_rape">Facing Abuse Rape</string>
+    <string name="facing_abuse_kidnapped">Facing Abuse Kidnapped</string>
+    <string name="facing_abuse_fear">Facing Abuse Fear</string>
+    <string name="facing_abuse_robbery">Facing Abuse Robbery</string>
+    <string name="facing_abuse_dakaiti">Facing Abuse Dakaiti</string>
+    <string name="facing_abuse_girl_trafficking">Facing Abuse Girl Trafficking</string>
+    <string name="facing_abuse_human_loss">Facing Abuse Human Loss</string>
+    <string name="facing_abuse_others">Facing Abuse Others</string>
+    <string name="social_discrimination">Social Discrimination</string>
+    <string name="social_discrimination_ethnic">Social Discrimination Ethnic</string>
+    <string name="social_discrimination_gender">Social Discrimination Gender</string>
+    <string name="social_discrimination_women">Social Discrimination Women</string>
+    <string name="social_discrimination_caste">Social Discrimination Caste</string>
+    <string name="social_discrimination_community">Social Discrimination Community</string>
+    <string name="enviromental_problems">Enviromental Problems</string>
+    <string name="enviromental_problems_polluted_water">Enviromental Problems Polluted Water</string>
+    <string name="enviromental_problems_solid_waste">Enviromental Problems Solid Waste</string>
+    <string name="enviromental_problems_drainage">Enviromental Problems Drainage</string>
+    <string name="enviromental_problems_dust_ash">Enviromental Problems Dust/Ash</string>
+    <string name="enviromental_problems_sound_pollution">Enviromental Problems Sound Pollution</string>
+    <string name="enviromental_problems_un_managed_parking">Enviromental Problems Un-managed Parking</string>
+    <string name="enviromental_problems_over_crowded">Enviromental Problems Over Crowded</string>
+
+</resources>

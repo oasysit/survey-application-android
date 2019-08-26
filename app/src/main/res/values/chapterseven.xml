@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="price">Price</string>
+    <string name="area">Area</string>
+    <string name="quantity">Quantity</string>
+    <string name="aana">Aana</string>
+    <string name="ropani">Ropani</string>
+    <string name="daam">Daam</string>
+    <string name="paisa">Paisa</string>
+    <string name="land_used_for_agriculture">Land Used for Agriculture</string>
+    <string name="rice_in_muri">Rice (in Muri)</string>
+    <string name="maize_in_muri">Maize (in Muri)</string>
+    <string name="wheat_in_muri">Wheat (in Muri)</string>
+    <string name="millet_in_muri">Millet (in Muri)</string>
+    <string name="other_crops_in_muri">Other Crops (in Muri)</string>
+    <string name="black_gram_in_pathi">Black Gram (in Pathi)</string>
+    <string name="rahar_in_pathi">Rahar (in Pathi)</string>
+    <string name="red_lentil_in_pathi">Red Lentil (in Pathi)</string>
+    <string name="gram_in_pathi">Gram (in Pathi)</string>
+    <string name="bean_in_pathi">Bean (in Pathi)</string>
+    <string name="soyabean_in_pathi">Soyabean (in Pathi)</string>
+    <string name="other_beans_in_pathi">Other Beans (in Pathi)</string>
+    <string name="mustard_in_kg">Mustard (in Kg.)</string>
+    <string name="sesame_in_kg">Sesame (in Kg.)</string>
+    <string name="sunflower_in_kg">Sunflower (in Kg.)</string>
+    <string name="other_oil_in_kg">Other Oil (in Kg.)</string>
+    <string name="potato_in_kg">Potato (in Kg.)</string>
+    <string name="cabbage_in_kg">Cabbage (in Kg.)</string>
+    <string name="pea_in_kg">Pea (in Kg.)</string>
+    <string name="tomato_in_kg">Tomato (in Kg.)</string>
+    <string name="cucumber_in_kg">Cucumber (in Kg.)</string>
+    <string name="mushroom_in_kg">Mushroom (in Kg.)</string>
+    <string name="bitter_gaurd_in_kg">Bitter Gaurd (in Kg.)</string>
+    <string name="other_vegetable_in_kg">Other Vegetable (in Kg.)</string>
+    <string name="ginger_in_kg">Ginger (in Kg.)</string>
+    <string name="onion_in_kg">Onion (in Kg.)</string>
+    <string name="chilli_in_kg">Chilli (in Kg.)</string>
+    <string name="mango_in_kg">Mango (in Kg.)</string>
+    <string name="litchi_in_kg">Litchi (in Kg.)</string>
+    <string name="banana_in_kg">Banana (in Kg.)</string>
+    <string name="papaya_in_kg">Papaya (in Kg.)</string>
+    <string name="orange_in_kg">Orange (in Kg.)</string>
+    <string name="peach_in_kg">Peach (in Kg.)</string>
+    <string name="pineapple_in_kg">Pineapple (in Kg.)</string>
+    <string name="jackfood_in_kg">Jackfood (in Kg.)</string>
+    <string name="guava_in_kg">Guava (in Kg.)</string>
+    <string name="kiwi_in_kg">Kiwi (in Kg.)</string>
+    <string name="cardamom_in_kg">Cardamom (in Kg.)</string>
+    <string name="coffee_in_kg">Coffee (in Kg.)</string>
+    <string name="sugarcane_in_kg">Sugarcane (in Kg.)</string>
+    <string name="ownership_of_land_besides_family">Ownership of Land besides family</string>
+    <string name="family_ownership_of_land">Family Ownership of Land</string>
+    <string name="other_ownership_of_land">Other Ownership of Land</string>
+    <string name="rearing_animal">Rearing Animal</string>
+    <string name="number">Number</string>
+    <string name="other_production">Other production</string>
+    <string name="annual_income_in_rs">Annual Income(in Rs.)</string>
+    <string name="milk_production_in_lt">Milk Production(in Lt.)</string>
+    <string name="bone_skin_production">Bone Skin Production</string>
+    <string name="meat_production">Meat Production</string>
+    <string name="wool_production">Wool Production</string>
+    <string name="egg_production">Egg Production</string>
+    <string name="cow">Cow</string>
+    <string name="buffalo">Buffalo</string>
+    <string name="sheep">Sheep</string>
+    <string name="pig">Pig</string>
+    <string name="hen">Hen</string>
+    <string name="pigeon">Pigeon</string>
+    <string name="fishery">Fishery</string>
+    <string name="bee_keeping">Bee Keeping</string>
+    <string name="horticulture">Horticulture</string>
+    <string name="annual_production">Annual Production</string>
+    <string name="agriculture_production_sufficient_for">Agriculture Production Sufficient For:</string>
+    <string name="firm">Firm</string>
+    <string name="firm_registered">Firm Registered</string>
+    <string name="firm_registered_in">Firm registered in</string>
+    <string name="firm_has_pan_number">Firm has PAN number</string>
+    <string name="firm_audit_reporting">Firm audit reporting</string>
+    <string name="firm_paying_tax_to_municipality">Firm paying tax to municipality</string>
+    <string name="firm_total_number">Firm Total Number</string>
+    <string name="firm_registered_number">Firm Registered Number</string>
+    <string name="firm_not_registered_number">Firm not Registered Number</string>
+    <string name="firm_types">Firm Types</string>
+    <string name="firm_investment_amount">Firm Investment Amount</string>
+    <string name="firm_annual_income">Firm Annual Income</string>
+    <string name="firm_involvement_of_man">Firm Involvement of Man</string>
+    <string name="firm_involvement_of_woman">Firm Involvement of Woman</string>
+    <string name="property_tax_to_municipality">Property tax to Municipality</string>
+    <string name="other_tax_to_municipality">Other tax to Municipality</string>
+    <string name="home_tax_to_municipality">Home tax to Municipality</string>
+    <string name="business_tax_to_municipality">Business tax to Municipality</string>
+
+    <string name="grocery_store">Grocery Store</string>
+    <string name="meat_shop">Meat Shop</string>
+    <string name="fruits_and_vegetables">Fruits and Vegetables</string>
+    <string name="dairy">Dairy</string>
+    <string name="construction">Construction</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="workshop_mechanic">Workshop/Mechanic</string>
+    <string name="electrical_and_electronics">Electrical and Electronics</string>
+    <string name="hotel_and_restaurant">Hotel and restaurant</string>
+    <string name="agricultural_farm">Agricultural Farm</string>
+    <string name="clothing_and_fancy">Clothing and Fancy</string>
+    <string name="tourism">Tourism</string>
+    <string name="industry">Industry</string>
+    <string name="private_educational_institution">Private Educational Institution</string>
+    <string name="other_institutions">Other Institutions</string>
+    <string name="other_business">Other Business</string>
+    <string name="annual_crops_production_and_sales">Annual Crops production and Sales</string>
+
+
+    <string-array name="agriculture_production_suff">
+        <item></item>
+        <item>3 months</item>
+        <item>4–6 months</item>
+        <item>7–9 months</item>
+        <item>more than 9 months</item>
+    </string-array>
+
+    <string-array name="firm_registered_in">
+        <item></item>
+        <item>Domestic and Small Industry</item>
+        <item>Company Registrar</item>
+        <item>Industrial Department</item>
+        <item>Commercial Department</item>
+        <item>District Coordination Committee</item>
+        <item>Rural Municipality</item>
+        <item>Other offices</item>
+    </string-array>
+</resources>

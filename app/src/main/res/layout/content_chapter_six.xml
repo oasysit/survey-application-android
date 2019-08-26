@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_layout_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/male_child_birth_registered" />
+
+    <Spinner
+        android:id="@+id/spinnerMaleChildBirthRegistered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/female_child_birth_registered" />
+
+    <Spinner
+        android:id="@+id/spinnerFemaleChildBirthRegistered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/male_child_admitted_in_cdc" />
+
+    <Spinner
+        android:id="@+id/spinnerMaleChildAdmittedInCDC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/female_child_admitted_in_cdc" />
+
+    <Spinner
+        android:id="@+id/spinnerFemaleChildAdmittedInCDC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_people_live_with_your_family" />
+
+    <Spinner
+        android:id="@+id/spinnerOtherPeopleLiveWithYourFamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/relatives_live_for" />
+
+    <Spinner
+        android:id="@+id/spinnerRelativesLiveFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/worker_below_18" />
+
+    <Spinner
+        android:id="@+id/spinnerWorkerBelow18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextTypesOfWorkRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/types_of_work_relative_does"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextWorkerWageDailyBasis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/worker_wage_daily_basis"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextWorkerWageMonthlyBasis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/worker_wage_monthly_basis"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/family_member_gone" />
+
+    <Spinner
+        android:id="@+id/spinnerFamilyMemberGone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <!--<android.support.design.widget.TextInputLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editTextMaleWorkType"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="@string/type_of_work_male_does"-->
+    <!--android:inputType="text" />-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <!--<android.support.design.widget.TextInputLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editTextTypesOfWorkFamily"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="@string/types_of_work_family"-->
+    <!--android:inputType="text" />-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <!--<android.support.design.widget.TextInputLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editTextFamilyWorkerWageDailyBasis"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="@string/family_worker_wage_daily_basis"-->
+    <!--android:inputType="text" />-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextFamilyWorkerWageMonthlyBasis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/family_worker_wage_monthly_basis"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/child_representative_in_municipality" />
+
+    <Spinner
+        android:id="@+id/spinnerChildRepresentativeInMunicipality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/child_representative_in_smc" />
+
+    <Spinner
+        android:id="@+id/spinnerChildRepresentativeInSMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/child_representative_in_health_centre" />
+
+    <Spinner
+        android:id="@+id/spinnerChildRepresentativeInHealthCentre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/leave_family_within_5_years" />
+
+    <Spinner
+        android:id="@+id/spinnerLeaveFamilyWithin5Years"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+
+</LinearLayout>

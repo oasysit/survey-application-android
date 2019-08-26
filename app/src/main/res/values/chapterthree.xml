@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="joint_toilet">Joint toilet</string>
+    <string name="road_width">Road Width (ft.)</string>
+    <string name="checkbox_radio">Radio</string>
+    <string name="checkbox_television">Television</string>
+    <string name="checkbox_mobile">Mobile</string>
+    <string name="checkbox_computer">Computer</string>
+    <string name="checkbox_email_internet">Email Internet</string>
+    <string name="checkbox_bike_scooter">Bike Scooter</string>
+    <string name="checkbox_motor_car">Motor Car</string>
+    <string name="checkbox_refrigerator">Refrigerator</string>
+    <string name="checkbox_washing_machine">Washing Machine</string>
+    <string name="checkbox_air_conditioner">Air Conditioner</string>
+    <string name="checkbox_heater_geyser_solar">Heater Geyser Solar</string>
+    <string name="facilities_used_by_family">Facilities that the family uses</string>
+    <string-array name="type_of_drinking_tap">
+        <item></item>
+        <item>Home</item>
+        <item>Public</item>
+        <item>Tubewell</item>
+        <item>Closed Well</item>
+        <item>Open Well</item>
+        <item>Spring</item>
+        <item>River Stream</item>
+        <item>Jar</item>
+        <item>Tanker</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="water_availability">
+        <item></item>
+        <item>Whole Year</item>
+        <item>Only Dry Season</item>
+        <item>Insufficient</item>
+    </string-array>
+
+    <string-array name="water_quality">
+        <item></item>
+        <item>Good</item>
+        <item>Clean</item>
+        <item>Dirty</item>
+        <item>Scented</item>
+        <item>Iron</item>
+        <item>Arsenic containing</item>
+    </string-array>
+
+    <string-array name="water_fetching_distance">
+        <item></item>
+        <item>In house</item>
+        <item>Around 15 minutes</item>
+        <item>Between 15 to 30 minutes</item>
+        <item>Over 30 minutes</item>
+    </string-array>
+
+    <string-array name="type_of_cooking_stove">
+        <item></item>
+        <item>Wood</item>
+        <item>Kerosene</item>
+        <item>LP Gas</item>
+        <item>Bio-gas</item>
+        <item>Electricity</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_of_oven">
+        <item></item>
+        <item>Gas Stove</item>
+        <item>Kerosene Stove</item>
+        <item>Improved</item>
+        <item>Mud</item>
+        <item>Open</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_of_electricity">
+        <item></item>
+        <item>Electricity</item>
+        <item>Solar</item>
+        <item>Electric + Solar</item>
+        <item>Kerosene</item>
+        <item>Bio-gas</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="why_no_electricity">
+        <item></item>
+        <item>Because of Home</item>
+        <item>No Electric line</item>
+        <item>Because of Money</item>
+        <item>In process</item>
+        <item>Not Own Property</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_of_toilet">
+        <item></item>
+        <item>No</item>
+        <item>Flush</item>
+        <item>Flush Public</item>
+        <item>Normal</item>
+        <item>Public</item>
+    </string-array>
+
+    <string-array name="type_of_waste_management">
+        <item></item>
+        <item>Vehicle</item>
+        <item>Can</item>
+        <item>Burn</item>
+        <item>Bury</item>
+        <item>River</item>
+        <item>Public Area</item>
+        <item>Compost Manure</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="house_drain">
+        <item></item>
+        <item>River</item>
+        <item>Public Road</item>
+        <item>Soakpit</item>
+        <item>Garden</item>
+        <item>Naali</item>
+        <item>Closed drainage</item>
+        <item>Open drainage</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="house_road">
+        <item></item>
+        <item>Blacktop</item>
+        <item>Gravel</item>
+        <item>Dust</item>
+        <item>Trail</item>
+        <item>No Road</item>
+    </string-array>
+
+    <string name="type_of_drinking_tap">Type of Drinking Tap</string>
+    <string name="water_availability">Is Water Available</string>
+    <string name="water_quality">Quality of Water</string>
+    <string name="water_fetching_distance">Water Fetching Distance</string>
+    <string name="type_of_cooking_stove">Type of Cooking Stove</string>
+    <string name="type_of_oven">Type of Oven</string>
+    <string name="type_of_electricity">Type of Electricity</string>
+    <string name="why_no_electricity">Why no Electricity</string>
+    <string name="type_of_toilet">Type of Toilet</string>
+    <string name="type_of_waste_management">Waste Management</string>
+    <string name="house_drain">House Drainage</string>
+    <string name="house_road">House Road type</string>
+
+</resources>

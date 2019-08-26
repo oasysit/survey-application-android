@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_layout_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vocational_skill_training" />
+
+    <Spinner
+        android:id="@+id/spinnerVocationalSkillTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTechnicalTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/technical_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTechnicalTrainingWoman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/technical_training_woman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTailoringTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/tailoring_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTailoringTrainingWoman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/tailoring_training_woman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCarpentryTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/carpentry_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCarpentryTrainingWomen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/carpentry_training_woman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEngineeringTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/engineering_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEngineeringTrainingWoman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/engineering_training_woman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFoodProcessingTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/food_processing_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFoodProcessingTrainingWoman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/food_processing_training_woman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPublicHealthTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/public_heath_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPublicHealthTrainingWoman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/public_heath_training_woman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAnimalHealthTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/animal_heath_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAnimalHealthTrainingWoman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/animal_heath_training_woman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxForestTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/forest_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxForestTrainingWoman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/forest_training_woman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTourismTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/tourism_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTourismTrainingWoman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/tourism_training_woman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxArtsTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/art_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxArtsTrainingWoman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/art_training_woman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOtherTrainingMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/other_training_man" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOtherTrainingWoman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/other_training_woman" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextAgricultureIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/agriculture_income_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextIndurstryIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/indurstry_income_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextSalaryIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/salary_income_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextForeignIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/foreign_income_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextLabourIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/labour_income"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextOtherIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/other_income_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextFoodingExpenditure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fooding_expenditure_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextClothingExpenditure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/clothing_expenditure_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextEducationExpenditure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/education_expenditure_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextHealthExpenditure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/health_expenditure_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextFestivalsExpenditure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/festivals_expenditure_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextLabourExpenditure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/labour_expenditure_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextOtherExpenditure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/other_expenditure_rs"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_in_bank" />
+
+    <Spinner
+        android:id="@+id/spinnerAccountInBank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loan_in_the_family" />
+
+    <Spinner
+        android:id="@+id/spinnerLoanInTheFamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loan_from" />
+
+    <Spinner
+        android:id="@+id/spinnerLoanFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loan_for" />
+
+    <Spinner
+        android:id="@+id/spinnerLoanFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/involved_in_politics" />
+
+    <Spinner
+        android:id="@+id/spinnerMembersInvolvedInPolitics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/involved_in" />
+
+    <CheckBox
+        android:id="@+id/involvedInLocalLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/localLevel" />
+
+    <CheckBox
+        android:id="@+id/involvedInLocalLevelPlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/localLevelPlan" />
+
+    <CheckBox
+        android:id="@+id/involvedInLocalHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/localHealth" />
+
+    <CheckBox
+        android:id="@+id/involvedInSchoolManagement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/schoolManagement" />
+
+    <CheckBox
+        android:id="@+id/involvedInAgricultureGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/agriculturalGroup" />
+
+    <CheckBox
+        android:id="@+id/involvedInForestConsumers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/forestConsumers" />
+
+    <CheckBox
+        android:id="@+id/involvedInCooperative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/cooperative" />
+
+    <CheckBox
+        android:id="@+id/involvedInSavingAndLoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/savingAndLoan" />
+
+    <CheckBox
+        android:id="@+id/involvedInWomanGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/womanGroup" />
+
+    <CheckBox
+        android:id="@+id/involvedInDrinkingWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/drinkingWater" />
+
+    <CheckBox
+        android:id="@+id/involvedInIrrigationWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/irrigationWater" />
+
+    <CheckBox
+        android:id="@+id/involvedInIncomeGeneratingGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/incomeGeneratingGroup" />
+
+    <CheckBox
+        android:id="@+id/involvedInEthnicGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/ethnicGroup" />
+
+    <CheckBox
+        android:id="@+id/involvedInYouthChildGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/youthChildGroup" />
+
+    <CheckBox
+        android:id="@+id/involvedInOtherActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding"
+        android:text="@string/otherActivity" />
+
+
+</LinearLayout>

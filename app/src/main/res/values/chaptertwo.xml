@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="time_of_construction">Time Of Construction</string>
+    <string name="area_of_the_house">Area of the House</string>
+    <string name="number_hh">Number HH</string>
+    <string name="number_of_storey">Number of Storey</string>
+    <string name="number_of_rooms">Number of Rooms</string>
+    <string name="number_of_family_used_rooms">Number Of Family used rooms</string>
+    <string name="type_of_house">Type of House</string>
+    <string name="type_of_settlement">Type of settlement</string>
+    <string name="type_of_owner">Type Of Owner</string>
+    <string name="separate_sleep_and_kitchen">Separate Sleep and Kitchen</string>
+    <string name="type_of_residence">Type of Residence</string>
+    <string name="type_of_floor">Type Of Floor</string>
+    <string name="type_of_wall">Type of Wall</string>
+    <string name="type_of_roof">Type of Roof</string>
+    <string name="government_standards">Government Standards</string>
+    <string name="car_parking">Car Parking</string>
+    <string name="greenery">Greenery</string>
+    <string name="flower_garden">Flower Garden</string>
+    <string name="earthquake_safe">Earthquake Safe</string>
+
+    <string-array name="area_of_the_house_spinner">
+        <item></item>
+        <item>sq. feet</item>
+        <item>sq. metre</item>
+        <item>Aana</item>
+    </string-array>
+
+    <string-array name="type_of_settlement">
+        <item> </item>
+        <item>Own</item>
+        <item>Rent</item>
+        <item>Institution</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_of_owner">
+        <item> </item>
+        <item>Private</item>
+        <item>Guthi</item>
+        <item>Public/Sukumbasi</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_of_residence">
+        <item> </item>
+        <item>Residential</item>
+        <item>Residential &amp; Rental</item>
+        <item>Own Business</item>
+        <item>Commercial Rental</item>
+    </string-array>
+
+    <string-array name="type_of_house">
+        <item> </item>
+        <item>Mud and Stone</item>
+        <item>Cement and Stone</item>
+        <item>Frame Structure</item>
+        <item>Load baring</item>
+        <item>Wood Pillar</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_of_floor">
+        <item> </item>
+        <item>Mud</item>
+        <item>Wood</item>
+        <item>Bamboo</item>
+        <item>Finishing Wood</item>
+        <item>Tile Marble</item>
+        <item>Cement</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_of_wall">
+        <item> </item>
+        <item>Brick Stone Cement</item>
+        <item>Brick Stone Mud</item>
+        <item>Wood Flake</item>
+        <item>Brick</item>
+        <item>RCC</item>
+        <item>Steel</item>
+        <item>Bamboo</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_of_roof">
+        <item> </item>
+        <item>Grass</item>
+        <item>Tin</item>
+        <item>Stone Tile</item>
+        <item>RCC</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

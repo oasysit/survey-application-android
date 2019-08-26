@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="male_child_birth_registered">Male Child Birth Registered</string>
+    <string name="female_child_birth_registered">Female Child Birth Registered</string>
+    <string name="male_child_admitted_in_cdc">Male Child Admitted In CDC</string>
+    <string name="female_child_admitted_in_cdc">Female Child Admitted In CDC</string>
+    <string name="other_people_live_with_your_family">Other People Live With Your Family</string>
+    <string name="relatives_live_for">Relatives Live For</string>
+    <string name="worker_below_18">Worker Below 18</string>
+    <string name="family_member_gone">Family Member Gone</string>
+    <string name="child_representative_in_municipality">Child Representative In Municipality</string>
+    <string name="child_representative_in_smc">Child Representative In SMC</string>
+    <string name="child_representative_in_health_centre">Child Representative In Health Centre</string>
+    <string name="leave_family_within_5_years">Leave Family Within 5 Years</string>
+    <string name="types_of_work_relative_does">Types of work Relative does</string>
+    <string name="worker_wage_daily_basis">Worker Wage - Daily Basis</string>
+    <string name="worker_wage_monthly_basis">Worker Wage Monthly Basis</string>
+    <string name="type_of_work_male_does">Type of work Male does</string>
+    <string name="types_of_work_family">Types of work family</string>
+    <string name="family_worker_wage_daily_basis">Family Worker Wage - Daily Basis</string>
+    <string name="family_worker_wage_monthly_basis">Family Worker Wage - Monthly Basis</string>
+
+    <string-array name="relatives_live_for">
+        <item></item>
+        <item>Due to lack of Guardian</item>
+        <item>Helping Work</item>
+        <item>Getting wages</item>
+        <item>Study purpose</item>
+        <item>Other purpose</item>
+    </string-array>
+
+</resources>

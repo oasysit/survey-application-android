@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Section one new data entry -->
+    <string name="house_number">House Number</string>
+    <string name="ward_number">Ward Number</string>
+    <string name="present_settlement">Present Settlement Name</string>
+    <string name="family_number">Family Number</string>
+    <string name="house_head_name">House Head Name</string>
+    <string name="family_count">Family Count</string>
+    <string name="road_name">Road Name</string>
+    <string name="municipality_hh_sno">Municipality HH SNo</string>
+    <string name="caste">Caste</string>
+    <string name="gender">Gender</string>
+    <string name="religion">Religion</string>
+    <string name="mother_tongue">Mother Tongue</string>
+    <string name="type_of_family">Type of Family</string>
+    <string name="form_number">Form Number</string>
+    <string name="other_caste">Other Caste</string>
+    <string name="other_caste_ethnicity">Other Caste Ethnicity</string>
+    <string name="other_religion">Other Religion</string>
+    <string name="other_mother_tongue">Other Mother Tongue</string>
+
+    <string-array name="caste">
+        <item> </item>
+        <item>Brahmin</item>
+        <item>Chhetri</item>
+        <item>Thakuri</item>
+        <item>Giri</item>
+        <item>Puri</item>
+        <item>Gurung</item>
+        <item>Magar</item>
+        <item>Tamang</item>
+        <item>Bhujel</item>
+        <item>Newar</item>
+        <item>Thakali</item>
+        <item>Kami</item>
+        <item>Damai</item>
+        <item>Sarki</item>
+        <item>Other…</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item> </item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="religion">
+        <item> </item>
+        <item>Hindu</item>
+        <item>Budhha</item>
+        <item>Muslim</item>
+        <item>Christian</item>
+        <item>Bon</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="mother_tongue">
+        <item> </item>
+        <item>Nepali</item>
+        <item>Gurung</item>
+        <item>Tamang</item>
+        <item>Newari</item>
+        <item>Magar</item>
+        <item>Thakali</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_of_family">
+        <item> </item>
+        <item>Single</item>
+        <item>Mixed</item>
+    </string-array>
+
+
+</resources>

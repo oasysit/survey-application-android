@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="type_of_treatment">Type of Treatment</string>
+    <string name="hiv">HIV</string>
+    <string name="malaria">Malaria</string>
+    <string name="tb">TB</string>
+    <string name="sugar">Sugar</string>
+    <string name="heart">Heart</string>
+    <string name="cancer">Cancer</string>
+    <string name="kidney">Kidney</string>
+    <string name="others">Others</string>
+    <string name="health_post_distance">Health Post Distance</string>
+    <string name="hospital_distance">Hospital Distance</string>
+    <string name="suffering_from">Suffering From:</string>
+
+    <string-array name="type_of_treatment">
+        <item></item>
+        <item>Lama/Dhami/Jhakri</item>
+        <item>Health Post</item>
+        <item>Private Hospital</item>
+        <item>Government Hospital</item>
+        <item>Medical</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="health_post_distance">
+        <item></item>
+        <item>Less than 15 minutes</item>
+        <item>Between 15–30 minutes</item>
+        <item>More than 30 minutes</item>
+    </string-array>
+
+    <string-array name="hospital_distance">
+        <item></item>
+        <item>Less than 15 minutes</item>
+        <item>Between 15–30 minutes</item>
+        <item>More than 30 minutes</item>
+    </string-array>
+
+    <string-array name="suffering_from">
+        <item></item>
+        <item>Failing Stomach</item>
+        <item>Thyroid</item>
+        <item>Sugar</item>
+        <item>High Pressure</item>
+        <item>Cancer</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="women_disease">Women Disease</string>
+    <string name="children_1yr_injection"><![CDATA[Children(<1yr) Injection]]></string>
+    <string name="bcg">BCG</string>
+    <string name="dpt">DPT</string>
+    <string name="dpt2">Dpt2</string>
+    <string name="dpt3">Dpt3</string>
+    <string name="hepatitis">Hepatitis</string>
+    <string name="poliyo">Poliyo</string>
+    <string name="cholera">Cholera</string>
+    <string name="worms_medicine">Worms Medicine</string>
+    <string name="other_injection">Other Injection</string>
+    <string name="vitamin_a">Vitamin A</string>
+    <string name="pregnant_get">Pregnant Get:</string>
+    <string name="baby_test">Baby Test</string>
+    <string name="health_checkup">Health Checkup</string>
+    <string name="tetanus">Tetanus</string>
+    <string name="iron">Iron</string>
+    <string name="other_treatment">Other Treatment</string>
+    <string name="age_of_delivery_1st_child">Age of Delivery 1st Child</string>
+    <string name="age_of_delivery_2nd_child">Age of delivery 2nd Child</string>
+    <string name="age_of_delivery_3rd_child">Age of delivery 3rd Child</string>
+    <string name="health_checkup_times_after_pregnant">Health Checkup times after Pregnant</string>
+    <string name="child_delivery_place">Child Delivery Place</string>
+    <string name="getting_vitamin_a">Getting Vitamin A</string>
+    <string name="iron_tablet_number">Iron Tablet Number</string>
+    <string name="breast_feeding_duration_months">Breast feeding duration (months)</string>
+    <string name="born_hiv_infected">Born HIV Infected:</string>
+    <string name="arv_prophylaxis_service">ARV Prophylaxis Service</string>
+    <string name="used_piped_water">Used Piped Water</string>
+    <string name="used_well">Used Well:</string>
+    <string name="used_source_water">Used Source Water</string>
+    <string name="used_other">Used Other</string>
+    <string name="is_there_a_habit_of_washing_hands">Is there a habit of washing hands:</string>
+    <string name="wash_hands_after_toilet">Wash Hands after Toilet</string>
+    <string name="wash_hands_before_meal">Wash Hands Before Meal</string>
+    <string name="wash_hands_after_meal">Wash Hands After Meal</string>
+    <string name="wash_hands_before_feeding_child">Wash Hands Before Feeding Child</string>
+    <string name="wash_hands_after_toileting_child">Wash hands after toileting Child</string>
+    <string name="family_health_insurance">Family health insurance</string>
+    <string name="used_jar_water">Used Jar Water</string>
+    <string name="has_anyone_suffered_from_any_disease">Has anyone suffered from any disease:</string>
+    <string name="the_type_of_water_the_family_uses">The type of water the family uses:</string>
+
+    <string-array name="used_water">
+        <item></item>
+        <item>Filter</item>
+        <item>Boiled</item>
+        <item>Chlorination</item>
+        <item>SODIS</item>
+        <item>Directly</item>
+    </string-array>
+
+    <string-array name="wash_hands">
+        <item></item>
+        <item>Soap + Water</item>
+        <item>Ash + Water</item>
+        <item>Only Water</item>
+        <item>Not washing hands</item>
+    </string-array>
+
+</resources>

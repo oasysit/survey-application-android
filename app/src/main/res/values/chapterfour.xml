@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_of_people_gender">No of People (Gender)</string>
+    <string name="age_below_1_year_old">Age Below 1 year old</string>
+    <string name="age_between_1_to_3_years_old">Age Between 1 to 3 years old</string>
+    <string name="age_between_4_to_5_years_old">Age Between 4 to 5 years old</string>
+    <string name="age_between_6_to_10_years_old">Age Between 6 to 10 years old</string>
+    <string name="age_between_11_to_15_years_old">Age Between 11 to 15 years old</string>
+    <string name="age_between_16_to_18_years_old">Age Between 16 to 18 years old</string>
+    <string name="age_between_19_to_45_years_old">Age Between 19 to 45 years old</string>
+    <string name="age_between_46_to_60_years_old">Age Between 46 to 60 years old</string>
+    <string name="age_between_61_to_65_years_old">Age Between 61 to 65 years old</string>
+    <string name="age_between_66_to_70_years_old">Age Between 66 to 70 years old</string>
+    <string name="age_between_71_to_80_years_old">Age Between 71 to 80 years old</string>
+    <string name="age_above_80_years_old">Age Above 80 years old</string>
+    <string name="total_people">Total people</string>
+    <string name="illiterate_between_5_to_15_years_old">Illiterate between 5 to 15 years old</string>
+    <string name="literate_between_5_to_15_years_old">Literate between 5 to 15 years old</string>
+    <string name="illiterate_between_16_to_45_years_old">Illiterate between 16 to 45 years old</string>
+    <string name="literate_between_16_to_45_years_old">Literate between 16 to 45 years old</string>
+    <string name="illiterate_between_46_to_60_years_old">Illiterate between 46 to 60 years old</string>
+    <string name="literate_between_46_to_60_years_old">Literate between 46 to 60 years old</string>
+    <string name="illiterate_above_60_years_old">Illiterate above 60 years old</string>
+    <string name="literate_above_60_years_old">Literate above 60 years old</string>
+    <string name="pre_school_government">Pre-school Government</string>
+    <string name="pre_school_boarding">Pre-school Boarding</string>
+    <string name="primary_government">Primary Government</string>
+    <string name="primary_boarding">Primary Boarding</string>
+    <string name="secondary_government">Secondary Government</string>
+    <string name="secondary_boarding">Secondary Boarding</string>
+    <string name="bachelors">Bachelors</string>
+    <string name="masters">Masters</string>
+    <string name="m_phil">M.Phil.</string>
+    <string name="phd">PHD</string>
+    <string name="normal_not_enroll_primary">Normal Not Enroll Primary</string>
+    <string name="abnormal_not_enroll_primary">Abnormal Not Enroll Primary</string>
+    <string name="normal_not_enroll_secondary">Normal Not Enroll Secondary</string>
+    <string name="abnormal_not_enroll_secondary">Abnormal Not Enroll Secondary</string>
+    <string name="drop_out_5_18_years_old">Drop Out 5–18 years old</string>
+    <string name="child_in_club">Child In Club</string>
+    <string name="school_club">School Club</string>
+    <string name="tole_club">Tole Club</string>
+    <string name="labour_club">Labour Club</string>
+    <string name="interest_in_sports">Interest In Sports</string>
+    <string name="interest_in_arts">Interest In Arts</string>
+    <string name="interest_in_literature">Interest In Literature</string>
+    <string name="interest_in_folk_culture">Interest In Folk Culture</string>
+    <string name="interest_in_technology">Interest In Technology</string>
+    <string name="interest_in_t_v">Interest In T.V.</string>
+    <string name="interest_in_internet">Interest In Internet</string>
+    <string name="interest_in_news">Interest In News</string>
+    <string name="interest_in_socialization">Interest In Socialization</string>
+    <string name="interest_in_study">Interest In Study</string>
+    <string name="settlement_in_rm">Settlement In RM</string>
+    <string name="settlement_out_rm">Settlement Out RM</string>
+    <string name="foreign_india">Foreign India</string>
+    <string name="foreign_gulf">Foreign Gulf</string>
+    <string name="foreign_korea">Foreign Korea</string>
+    <string name="foreign_japan">Foreign Japan</string>
+    <string name="foreign_malaya">Foreign Malaya</string>
+    <string name="foreign_australia">Foreign Australia</string>
+    <string name="foreign_europe">Foreign Europe</string>
+    <string name="foreign_u_s">Foreign U.S.</string>
+    <string name="foreign_other">Foreign Other</string>
+    <string name="foreign_less_5_years">Foreign Less 5 Years</string>
+    <string name="foreign_more_5_years">Foreign More 5 Years</string>
+    <string name="involvement_in_agriculture">Involvement in Agriculture</string>
+    <string name="involvement_in_industry">Involvement in Industry</string>
+    <string name="involvement_in_service">Involvement in Service</string>
+    <string name="nepali">Nepali</string>
+    <string name="indian">Indian</string>
+    <string name="british">British</string>
+    <string name="pension">Pension</string>
+    <string name="working_in_wages">Working in Wages</string>
+    <string name="foreign_employment">Foreign Employment</string>
+    <string name="mentor">Mentor</string>
+    <string name="student">Student</string>
+    <string name="house_wife">House Wife</string>
+    <string name="unemployed">Unemployed</string>
+    <string name="unmarried">Unmarried</string>
+    <string name="married">Married</string>
+    <string name="polygamy">Polygamy</string>
+    <string name="re_marriage">Re Marriage</string>
+    <string name="widow">Widow</string>
+    <string name="divorce">Divorce</string>
+    <string name="separate">Separate</string>
+    <string name="not_disabled">Not Disabled</string>
+    <string name="physically_disabled">Physically Disabled</string>
+    <string name="intel_disabled">Intel Disabled</string>
+    <string name="blind_disabled">Blind Disabled</string>
+    <string name="hear_disabled">Hear Disabled</string>
+    <string name="blind_deaf_disabled">Blind Deaf Disabled</string>
+    <string name="mental_disabled">Mental Disabled</string>
+    <string name="disability_card">Disability Card</string>
+    <string name="migration">Migration</string>
+    <string name="card_r">Card R</string>
+    <string name="card_b">Card B</string>
+    <string name="card_y">Card Y</string>
+    <string name="card_w">Card W</string>
+    <string name="migration_type">Migration Type</string>
+    <string name="migration_year">Migration Year</string>
+    <string name="migration_cause">Migration Cause</string>
+    <string name="child_born_this_year">Child Born This Year</string>
+    <string name="no_of_child_birth">No of Child Birth</string>
+    <string name="born_place">Born Place</string>
+    <string name="child_death_of_less_than_1_year">Child Death of Less than 1 year</string>
+    <string name="no_of_deaths">No of deaths</string>
+    <string name="cause_of_death">Cause of death</string>
+    <string name="child_death_of_less_than_5_year">Child Death of Less than 5 year</string>
+    <string name="basic_distance">Basic Distance</string>
+    <string name="secondary_distance">Secondary Distance</string>
+    <string name="dropout_cause">Dropout Cause</string>
+    <string name="if_anyone_from_family_has_been_abroad">If anyone from family has been abroad:</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="mouth_disabled">Mouth Disabled</string>
+    <string name="speech_disabled">Speech Disabled</string>
+
+    <string-array name="distance_in_time">
+        <item></item>
+        <item>Less than 15 minutes</item>
+        <item>Between 15 to 30 minutes</item>
+        <item>Between 30 to 60 minutes</item>
+        <item>More than 1 hour</item>
+    </string-array>
+
+    <string-array name="dropout_cause">
+        <item></item>
+        <item>Disability</item>
+        <item>Poor</item>
+        <item>Far distance</item>
+        <item>Family Dispute</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="migration_type">
+        <item></item>
+        <item>Own District</item>
+        <item>Other District</item>
+        <item>Foreign Countries</item>
+    </string-array>
+
+    <string-array name="born_place">
+        <item></item>
+        <item>Home</item>
+        <item>Hospital</item>
+    </string-array>
+
+</resources>

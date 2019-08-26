@@ -1,0 +1,621 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_layout_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_of_treatment" />
+
+    <Spinner
+        android:id="@+id/spinnerTypeOfTreatment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/health_post_distance" />
+
+    <Spinner
+        android:id="@+id/spinnerHealthPostDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hospital_distance" />
+
+    <Spinner
+        android:id="@+id/spinnerHospitalDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/has_anyone_suffered_from_any_disease" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hiv" />
+
+    <include
+        android:id="@+id/hiv"
+        layout="@layout/input_male_female_other" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/malaria" />
+
+    <include
+        android:id="@+id/malaria"
+        layout="@layout/input_male_female_other" />
+
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tb" />
+
+    <include
+        android:id="@+id/tb"
+        layout="@layout/input_male_female_other" />
+
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancer" />
+
+    <include
+        android:id="@+id/cancer"
+        layout="@layout/input_male_female_other" />
+
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sugar" />
+
+    <include
+        android:id="@+id/sugar"
+        layout="@layout/input_male_female_other" />
+
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heart" />
+
+    <include
+        android:id="@+id/heart"
+        layout="@layout/input_male_female_other" />
+
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kidney" />
+
+    <include
+        android:id="@+id/kidney"
+        layout="@layout/input_male_female_other" />
+
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/others" />
+
+    <include
+        android:id="@+id/others"
+        layout="@layout/input_male_female_other" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/women_disease" />
+
+    <Spinner
+        android:id="@+id/spinnerWomenDisease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/suffering_from" />
+
+    <Spinner
+        android:id="@+id/spinnerSufferingFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/children_1yr_injection" />
+
+    <Spinner
+        android:id="@+id/spinnerChildrenInjection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bcg" />
+
+    <include
+        android:id="@+id/bcg"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pentavalent" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hib_pneumonia" />
+
+    <include
+        android:id="@+id/hibPneumonia"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pcv_pneumonia" />
+
+    <include
+        android:id="@+id/pcvPneumonia"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m_r_dadura_rubela" />
+
+    <include
+        android:id="@+id/mrDadura"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/japanese_encephalitis" />
+
+    <include
+        android:id="@+id/japaneseEcephalitis"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dpt" />
+
+    <include
+        android:id="@+id/dpt"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/poliyo" />
+
+    <include
+        android:id="@+id/poliyo"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dpt2" />
+
+    <include
+        android:id="@+id/dpt2"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dpt3" />
+
+    <include
+        android:id="@+id/dpt3"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cholera" />
+
+    <include
+        android:id="@+id/cholera"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hepatitis" />
+
+    <include
+        android:id="@+id/hepatitis"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_injection" />
+
+    <include
+        android:id="@+id/otherInjection"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/worms_medicine" />
+
+    <include
+        android:id="@+id/wormsMedicine"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vitamin_a" />
+
+    <include
+        android:id="@+id/vitaminA"
+        layout="@layout/input_boy_girl" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pregnant_get" />
+
+    <CheckBox
+        android:id="@+id/checkBoxWormMedicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/worms_medicine" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBabyTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/baby_test" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHealthCheckup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/health_checkup" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTetanus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/tetanus" />
+
+    <CheckBox
+        android:id="@+id/checkBoxIron"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/iron" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOtherTreatment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/checkbox_padding"
+        android:text="@string/other_treatment" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextAgeOfDeliveryFirstChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/age_of_delivery_1st_child"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextAgeOfDeliverySecondChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/age_of_delivery_2nd_child"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextAgeOfDeliveryThirdChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/age_of_delivery_3rd_child"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextHealthCheckupTimesAfterPregnant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/health_checkup_times_after_pregnant"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextChildDeliveryPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/child_delivery_place" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextGettingVitaminA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/getting_vitamin_a" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextIronTabletNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/iron_tablet_number"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextBreastFeedingDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/breast_feeding_duration_months"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/born_hiv_infected" />
+
+    <Spinner
+        android:id="@+id/spinnerBornHivInfected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/arv_prophylaxis_service" />
+
+    <Spinner
+        android:id="@+id/spinnerARVProfilexesService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_type_of_water_the_family_uses" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/used_piped_water" />
+
+    <Spinner
+        android:id="@+id/spinnerUsedPipedWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/used_well" />
+
+    <Spinner
+        android:id="@+id/spinnerUsedWell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/used_source_water" />
+
+    <Spinner
+        android:id="@+id/spinnerUsedSourceWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/used_jar_water" />
+
+    <Spinner
+        android:id="@+id/spinnerUsedJarWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/used_other" />
+
+    <Spinner
+        android:id="@+id/spinnerUsedOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/is_there_a_habit_of_washing_hands" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wash_hands_after_toilet" />
+
+    <Spinner
+        android:id="@+id/spinnerAfterToiletWashHands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wash_hands_before_meal" />
+
+    <Spinner
+        android:id="@+id/spinnerBeforeMealWashHands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wash_hands_after_meal" />
+
+    <Spinner
+        android:id="@+id/spinnerAfterMealWashHands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wash_hands_before_feeding_child" />
+
+    <Spinner
+        android:id="@+id/spinnerBeforeFeedingChildWashHands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wash_hands_after_toileting_child" />
+
+    <Spinner
+        android:id="@+id/spinnerAfterToiletingChildWashHands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/family_health_insurance" />
+
+    <Spinner
+        android:id="@+id/spinnerFamilyHealthInsurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spinner_padding" />
+
+</LinearLayout>
